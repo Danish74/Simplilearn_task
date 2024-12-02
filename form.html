@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my form page</title>
+</head>
+<body>
+    <form method="post" action="demo.html">
+        <div>
+            <label for="name">Full Name </label>
+            <input type="text" name="full" id="full" placeholder="Write your name" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age" required>
+        </div>
+        <br>
+        <div>
+            <label for="contact">contact</label>
+            <input type="number" name="contact" id="contact" placeholder="Enter your contact details" required>
+        </div>
+        <br>
+        <div>
+            <label for="dob"> DOB </label>
+            <input type="date" name="dob" id="dob" placeholder="Enter your Date of Birth" required>
+        </div>
+        <br>
+            <div>
+                <label for="pass">Set password</label>
+                <input type="password" name="pass" id="pass" placeholder="Writeyour password">
+            </div>
+            <br>
+        <div>
+            <label for="female"> Female </label>
+            <input type="radio" name="gender" id="female" value="female">
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male"> Male </label>
+        </div>
+        <br>
+        <div>
+            <label for="lang">Language you know </label>
+            <input type="checkbox" name="lang" id="English" value="English">
+            <label for="lang">English</label>
+            <input type="checkbox" name="lang" id="hindi" value="hindi">
+            <label for="lang">Hindi</label>
+            <input type="checkbox" name="lang" id="spanish" value="spanish">
+            <label for="lang">Spanish</label>
+        </div>
+        <br>
+        <div>
+            <label for="query">Query</label>
+            <textarea rows="10" cols="20" name="query" id="query"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="country"> Country</label>
+            <select name="country" id="country">
+                <option value="India"> India </option>
+                <option value="Australia"> Australia </option>
+                <option value="Japan"> Japan </option>
+                <option value="England"> England </option>
+                <option value="US"> US </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="food">your favorite food </label>
+            <input type="text" name="food" id="food" list="foods">
+            <datalist id="foods">
+                <option value="North Indian"></option>
+                <option value="South Indian"></option>
+                <option value="Kerala Meals"></option>
+                <option value="Mexican"></option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="doc">Document upload</label>
+            <input type="file" id="resume">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+        </div>
+        <div>
+            <label for="progress"> </label>
+            <progress id="file" value="20%"></progress>
+        </div>
+        </div>
+    </form>
+</body>
+</html>

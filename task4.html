@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        p{
+            color: cadetblue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2{
+            color: aquamarine;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table{
+            width: 100%;
+            background-color: cadetblue;
+            color: black;
+            border-collapse: collapse;
+        }
+        table th, table td{
+            border: 2px solid #ddd;
+            padding: 5px;
+            text-align: center;
+        }
+        li{
+            color: aqua;
+        }
+        img{
+            height: 400px;
+            width: 100%;
+        }
+        #box{
+            width: 100%;
+            height: 100%;
+            padding: 50px;
+            margin: 2px;
+            border: 4px solid green;
+        }
+        #box2{
+            width: 300px;
+            height: 80px;
+            background-color: yellow;
+            border: 2px solid black ;
+            
+        }
+        #box3{
+
+            width: 200px;
+            height: 50px;
+            margin: 10px;
+            color: cyan;
+            border: 2px solid black ;
+            color: black;
+            text-align: center;
+        }
+        #leaf1{
+
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: cyan;
+            border-radius: 200px 0;
+
+        }
+        #leaf2{
+
+            position: absolute;
+            left: 150%;
+            right: 150%;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: cyan;
+            border-radius: 200px 0;
+
+        }
+
+        #div1 p{
+    background-color: rgb(173, 11, 173);
+    color:white;
+    font-weight: bold;
+    padding: 20px;
+  }
+  #div1:hover p{
+    background-color: green;
+  }
+.grid-container {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(3, 1fr);
+gap: 10px; /* adjust as needed */
+width: 100%;
+height: 100vh; /* full viewport height for demo */
+}
+
+
+.box {
+background-color: green;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+border: 1px solid black;
+}
+
+
+.a {
+grid-column: 0 / 3;
+grid-row: 1 / 2;
+}
+
+
+.b {
+grid-column: 0 / 4;
+grid-row: 1 / 2;
+}
+
+
+.f {
+grid-column: 5 / 7;
+grid-row: 1 / 3;
+}
+
+
+.c {
+grid-column: 3 / 1;
+grid-row: 2 / 3;
+}
+
+
+.d {
+grid-column: 1 / 3;
+grid-row: 3 / 3;
+}
+
+
+.e {
+grid-column: 3 / 5;
+grid-row: 1 / 4;
+}
+
+
+.g {
+grid-column: 5 / 6;
+grid-row: 3 / 3;
+}
+
+
+.h {
+grid-column: 6 / 7;
+grid-row: 3 / 3;
+}
+
+  
+ </style>
+
+
+<title> Flex Layout </title>
+      <style>
+        .flex-container{
+            display: flex;
+            background-color: orangered;
+            height: 140px;
+            align-items: center;
+        }
+        .flex-container div{
+            background-color: brown;
+            font-size: 20px;
+            color:white;
+            padding: 10px;
+            margin: 20px;
+            width:100px;
+        }
+      </style>
+    </head>
+    <body>
+        <div class="flex-container">
+          <div> HTML</div>
+          <div> CSS</div>
+          <div> JS</div>
+          <div> Jquery</div>
+          <div> React JS</div>
+          <!--div> Node JS</div>
+          <div> Angualr js</div>
+          <div> ECMA6 </div>
+          <div> HTML -5</div>
+          <div> CSS -3</div>
+          <div> JS- Advaced</div>
+          <div> Nest JS</div>
+          <div> Next JS</div-->
+        </div>
+
+    <h2>
+        Resume:
+    </h2>
+
+    <div>
+        <h2>
+            Objective:
+        </h2>
+        <div id="box">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, vel!
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, vel!
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, vel!
+            </p>
+        </div>
+    </div>
+    <br>
+    
+    <div>
+        <h2>School Marks: </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Users </th>
+                    <th> Board </th>
+                    <th> %  </th>
+                </tr>
+            </thead>
+            
+                <tbody>
+                    <td>
+                        10
+                    </td>
+                    <td>
+                        RBSE
+                    </td>
+                    <td>
+                        82
+                    </td>
+                </tbody>
+                <tbody>
+                    <td>
+                        12
+                    </td>
+                    <td>
+                        RBSE
+                    </td>
+                    <td>
+                        84
+                    </td>
+                </tbody>
+                
+        </table>
+    </div>
+    <br>
+    <Div>
+        <h2> Projects: </h2>
+        <div id="box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, laboriosam!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, laboriosam!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, laboriosam!</p>
+        </div>
+    </Div>
+
+    <div>
+        <h2>Hobbies: </h2>
+        <ul>
+            <li>Reading</li>
+            <li>Dance</li>
+            <li>Cooking</li>
+        </ul>
+    </div>
+    <div>
+        <img src="premium_photo-1681488262364-8aeb1b6aac56.avif" alt="">
+    </div>
+
+    <div id=box2>
+        <div id="box3">Resume</div>
+    </div>
+    <div>
+        <div id="leaf1">
+            <div id="leaf2">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="grid-container">
+            <div class="box a">A</div>
+            <div class="box b">B</div>
+            <div class="box f">F</div>
+            <div class="box c">C</div>
+            <div class="box d">D</div>
+            <div class="box e">E</div>
+            <div class="box g">G</div>
+            <div class="box h">H</div>
+        </div>
+    </div>
+    
+
+
+    
+</body>
+</html>

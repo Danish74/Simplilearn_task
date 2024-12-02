@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+ am working to change master
+=======
+this the content for the merge conflict demo
+>>>>>>> copybranch
